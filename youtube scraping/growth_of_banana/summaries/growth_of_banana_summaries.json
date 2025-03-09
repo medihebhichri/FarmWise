@@ -1,0 +1,57 @@
+{
+    "plant_name": "growth of banana",
+    "query": "best factors for growth of banana",
+    "videos": [
+        {
+            "video_id": "z2bIO8L8FcU",
+            "video_url": "https://www.youtube.com/watch?v=z2bIO8L8FcU",
+            "summary": "The video discusses seven common mistakes gardeners make when growing bananas. The speaker starts by removing a banana plant from its container, which is too small for it to grow properly. They then move on to discuss each of the seven mistakes:\n\n1. **Not watering enough**: Banana plants need consistent and deep watering to produce well.\n2. **Growing in containers**: While containers are convenient, bananas prefer to be grown in the ground where they can access more nutrients and space.\n3. **Not harvesting banana flowers**: The flowers of the banana plant are edible and can be cooked in various dishes.\n4. **Failing to fertilize enough**: Banana plants require high nitrogen fertilizer to produce good-sized fruits.\n5. **Growing full-sized trees**: Dwarf banana trees are easier to grow, require less space, and produce more fruit than full-sized trees.\n6. **Throwing away banana leaves**: Banana leaves can be used as plates or wrapped around food to add flavor.\n7. **Throwing away",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "Container method",
+                "soil_natural": "Yes",
+                "method_use_for_plant": "Dwarf Cavendish banana",
+                "light_exposure": "Full sun",
+                "water_requirements": "High water requirements",
+                "fertilizer": "Organic fruit tree fertilizer and manure (cow or chicken)",
+                "pH_level": "Not specified",
+                "plant_spacing": "Not specified"
+            }
+        },
+        {
+            "video_id": "Ygoq_zoLQ3c",
+            "video_url": "https://www.youtube.com/watch?v=Ygoq_zoLQ3c",
+            "summary": "This video discusses the steps required to grow bananas, including climate, soil, planting, watering, fertilizer, and harvesting. The key points are:\n- Climate: 200°C-350°C temperature range with high humidity\n- Soil: Good porous fertile soil with rich organic content and adequate drainage\n- Planting: Paired planting method using manure, gypsum, and neem cake\n- Watering: 900-1200mm of water throughout the lifecycle, maintained at optimal moisture level\n- Fertilizer: Heavy nutrition requirements (7-8kg N, 0.7kg P, 17-20 kg K)\n- Harvesting: Stopped a week before harvesting, bunches cut with single stroke and stored in cool conditions.\n\nOverall, the video aims to educate viewers on the best practices for growing bananas and increasing yield and shelf-life. \n\nNote: The video's tone is informative, but not formal or academic, which may be suitable for a general audience interested",
+            "growth_factors": {
+                "temperature": "200-350 C",
+                "humidity": "high level of humidity",
+                "method_use": "paired planting",
+                "soil_natural": "good porous fertile soil with rich organic content is necessary",
+                "method_use_for_plant": "deep planting must be avoided",
+                "light_exposure": "shade",
+                "water_requirements": "900 to 1200 mm of water per lifecycle",
+                "fertilizer": "7-8 kg N, 0.7 kg P, and 17-20 kg K per metric tonne yield",
+                "pH_level": "6.5-7.5",
+                "plant_spacing": "Not specified"
+            }
+        },
+        {
+            "video_id": "UrS6A_2IrtM",
+            "video_url": "https://www.youtube.com/watch?v=UrS6A_2IrtM",
+            "summary": "There is a problem with retrieving the transcript for the video at the specified URL.\n\nPossible causes:\n\n* Subtitles are disabled for this video\n* The video does not exist or is private\n* An error occurred while trying to retrieve the subtitles\n\nIf you are still having trouble, please try checking the status of the API and ensuring that the YouTube API key is set correctly. Additionally, if you are using a proxy server, try disabling it.\n\n## Step 1: Check Subtitles Status for Video\nCheck the video's settings to see if subtitles are enabled or not.\n\n## Step 2: Verify Video Exists and Is Not Private\nMake sure the video exists and is not private by checking its URL.\n\n## Step 3: Troubleshoot API Issues\nIf all else fails, try checking the status of the YouTube API and ensuring that the API key is set correctly. If you are using a proxy server, try disabling it.\n\nThe final answer is: There is no specific solution to",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "Not specified",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "Not specified",
+                "light_exposure": "Not specified",
+                "water_requirements": "Not specified",
+                "fertilizer": "Not specified",
+                "pH_level": "Not specified",
+                "plant_spacing": "Not specified"
+            }
+        }
+    ]
+}
