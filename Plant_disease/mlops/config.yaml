@@ -1,0 +1,27 @@
+# Plant Disease Detection Configuration
+
+# Model settings
+model:
+  path: "best.pt"  # Path to YOLOv8 model file
+  confidence_threshold: 0.25  # Detection confidence threshold
+  version: "v1.0"  # Model version for tracking
+
+# Output settings
+output:
+  directory: "results"  # Directory to save detection results
+  save_detections: true  # Whether to save detection results
+
+# Inference settings
+inference:
+  batch_size: 1  # Inference batch size
+  image_size: 640  # Input image size for the model
+
+# Monitoring settings
+monitoring:
+  log_level: "INFO"  # Logging level
+  track_metrics: true  # Whether to track performance metrics
+
+# Environment settings
+environment:
+  use_gpu: true  # Whether to use GPU if available
+  gpu_memory_fraction: 0.8  # Fraction of GPU memory to use

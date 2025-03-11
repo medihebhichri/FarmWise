@@ -1,0 +1,1 @@
+plant_disease_detector.py --model "D:\cours\pfa\hardware\code\plantwise\Plant_disease\mlops\models\best.pt" --image D:\cours\pfa\hardware\code\plantwise\Plant_disease\mlops\images\HUNQy44pDSpeJQ9jaTKdLK.jpg
