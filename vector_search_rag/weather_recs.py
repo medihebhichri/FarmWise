@@ -10,7 +10,7 @@ db = client.sample_weatherdata
 collection = db.data
 
 # Hugging Face API settings
-hf_token = ""
+hf_token = "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"
 embedding_url = "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2"
 
 
