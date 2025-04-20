@@ -28,7 +28,7 @@ qa_chain = RetrievalQA.from_chain_type(
     return_source_documents=True
 )
 
-# --- Named Entity Extraction ---
+# --- Named Entityyy Extraction ---
 def extract_plant_name(question):
     doc = nlp(question)
     for ent in doc.ents:
