@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ask Nursy 🤖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f9;
+      padding: 50px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    form {
+      margin: 30px auto;
+      max-width: 500px;
+      background: white;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 15px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+
+    button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #45a049;
+    }
+
+    .answer-box {
+      margin-top: 30px;
+      background: #ffffff;
+      border-left: 6px solid #4CAF50;
+      padding: 20px;
+      display: inline-block;
+      max-width: 600px;
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    .footer {
+      margin-top: 50px;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ask Nursy 🤖</h1>
+  <form method="POST">
+    <input type="text" name="question" placeholder="Type your question here..." required>
+    <button type="submit">Get Answer</button>
+  </form>
+
+  {% if answer %}
+    <div class="answer-box">
+      <strong>Answer:</strong>
+      <p>{{ answer }}</p>
+    </div>
+  {% endif %}
+
+  <div class="footer">
+    Built with ❤️ using Flask + LangChain
+  </div>
+</body>
+</html>
