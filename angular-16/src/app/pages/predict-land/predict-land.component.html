@@ -1,0 +1,98 @@
+<div class="container p-4">
+  <h2>Land Price Prediction</h2>
+
+  <form #predictForm="ngForm" (ngSubmit)="onSubmit(predictForm)">
+    <!-- Year -->
+    <div class="mb-3">
+      <label for="year">Year</label>
+      <input
+        id="year"
+        name="year"
+        type="number"
+        required
+        class="form-control"
+        [(ngModel)]="year"
+        #yearCtrl="ngModel"
+      />
+      <div *ngIf="yearCtrl.invalid && yearCtrl.touched" class="text-danger">
+        Year is required.
+      </div>
+    </div>
+
+    <!-- State_encoded -->
+    <div class="mb-3">
+      <label for="state">State (encoded)</label>
+      <input
+        id="state"
+        name="state"
+        type="number"
+        required
+        class="form-control"
+        [(ngModel)]="stateEncoded"
+        #stateCtrl="ngModel"
+      />
+      <div *ngIf="stateCtrl.invalid && stateCtrl.touched" class="text-danger">
+        State encoding is required.
+      </div>
+    </div>
+
+    <!-- Land_use_encoded -->
+    <div class="mb-3">
+      <label for="landUse">Land Use (encoded)</label>
+      <input
+        id="landUse"
+        name="landUse"
+        type="number"
+        required
+        class="form-control"
+        [(ngModel)]="landUseEncoded"
+        #landUseCtrl="ngModel"
+      />
+      <div *ngIf="landUseCtrl.invalid && landUseCtrl.touched" class="text-danger">
+        Land-use encoding is required.
+      </div>
+    </div>
+
+    <button
+      type="submit"
+      class="btn btn-primary"
+      [disabled]="predictForm.invalid || predicting"
+    >
+      {{ predicting ? 'Predicting…' : 'Predict Price' }}
+    </button>
+  </form>
+
+  <!-- USD & TND results -->
+  <div *ngIf="predictedUSD !== null" class="alert alert-success mt-4">
+    <p>
+      <strong>Price (USD/m²):</strong>
+      {{ predictedUSD | number:'1.2-2' }}
+    </p>
+    <p>
+      <strong>Price (TND/m²):</strong>
+      <!-- show loading spinner/text while fetching -->
+      <ng-container *ngIf="loadingRate; else tndResult">
+        <em>Loading conversion…</em>
+      </ng-container>
+      <!-- once rate fetch completes -->
+      <ng-template #tndResult>
+        <!-- if we got a valid conversion -->
+        <span *ngIf="!rateError && predictedTND !== null">
+          {{ predictedTND | number:'1.2-2' }}
+        </span>
+        <!-- if conversion failed -->
+        <span *ngIf="rateError" class="text-danger">
+          Conversion failed.
+        </span>
+      </ng-template>
+    </p>
+  </div>
+
+  <!-- overall prediction error -->
+  <div
+    *ngIf="!predicting && predictedUSD===null && predictForm.submitted"
+    class="alert alert-danger mt-4"
+  >
+    Prediction failed. Please try again.
+  </div>
+</div>

@@ -1,0 +1,58 @@
+<ul class="navbar-nav float-end" style="background-color: green;">
+  <li class="nav-item" ngbDropdown placement="bottom-end">
+    <a
+      ngbDropdownToggle
+      class="nav-link waves-effect waves-dark pro-pic d-flex align-items-center"
+      href="javascript:void(0)"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      <img
+        [src]="safeImageUrl"
+        (error)="safeImageUrl = 'assets/images/users/default.jpg'"
+        alt="user"
+        class="rounded-circle border border-2 shadow-sm"
+        width="36"
+        height="36"
+      />
+      <span class="ms-2 fw-semibold">{{ user?.username || 'Guest' }}</span>
+    </a>
+
+    <div ngbDropdownMenu class="dropdown-menu dropdown-menu-end animate__animated animate__fadeIn">
+      <!-- User preview in dropdown -->
+      <div class="dropdown-header text-center">
+        <img
+          [src]="safeImageUrl"
+          (error)="safeImageUrl = 'assets/images/users/default.jpg'"
+          alt="user"
+          class="rounded-circle mb-2 border"
+          width="60"
+          height="60"
+        />
+        <div class="fw-bold">{{ user?.username || 'Guest' }}</div>
+        <small class="text-muted">{{ user?.email || '' }}</small>
+      </div>
+      <div class="dropdown-divider"></div>
+
+      <a class="dropdown-item" href="/profile">👤 My Profile</a>
+      <a class="dropdown-item" href="javascript:void(0)">💼 My Balance</a>
+      <a class="dropdown-item" href="javascript:void(0)">📨 Inbox</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="javascript:void(0)">⚙️ Account Settings</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="javascript:void(0)" (click)="logout()">🚪 Logout</a>
+    </div>
+  </li>
+
+</ul>
+<style>
+  .pro-pic img {
+  object-fit: cover;
+  transition: box-shadow 0.2s;
+}
+
+.pro-pic img:hover {
+  box-shadow: 0 0 0 3px #00c29244;
+}
+
+</style>
