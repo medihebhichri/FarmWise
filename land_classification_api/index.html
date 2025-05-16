@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Land Classification</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>🌍 Land Classification Predictor</h2>
+  <form id="predictForm">
+    <label for="lat">Latitude:</label>
+    <input type="number" id="lat" name="lat" placeholder="e.g., 36.8065" step="any" required />
+
+    <label for="lon">Longitude:</label>
+    <input type="number" id="lon" name="lon" placeholder="e.g., 10.1815" step="any" required />
+
+    <button type="submit">Predict</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script>
+    document.getElementById('predictForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const lat = document.getElementById('lat').value;
+      const lon = document.getElementById('lon').value;
+      const resultDiv = document.getElementById('result');
+
+      resultDiv.textContent = "⏳ Predicting...";
+
+      try {
+        const response = await fetch(`http://localhost:8000/predict?lat=${lat}&lon=${lon}`);
+        if (!response.ok) throw new Error("Server error");
+        const data = await response.json();
+        resultDiv.textContent = `✅ Predicted Land Class: ${data.prediction}`;
+      } catch (error) {
+        resultDiv.textContent = "❌ Error: Could not get prediction.";
+        console.error(error);
+      }
+    });
+  </script>
+</body>
+</html>
