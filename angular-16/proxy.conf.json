@@ -1,0 +1,12 @@
+{
+
+  "/v6/latest/USD": {
+    "target": "https://open.er-api.com",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/v6/latest/USD": "/v6/latest/USD" }
+  }
+
+
+}
+    

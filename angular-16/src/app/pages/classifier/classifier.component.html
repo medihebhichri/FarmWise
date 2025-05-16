@@ -1,0 +1,42 @@
+<h1 class="text-center mt-4">Land Classification</h1> <!-- Added page title -->
+
+<!-- src/app/components/classifier/classifier.component.html -->
+<div class="classifier-layout">
+  <!-- Left column: map + button -->
+  <div class="left-panel">
+    <div class="classifier-map" id="map"></div>
+    <div class="text-center my-3">
+      <button
+        class="btn btn-success btn-lg"
+        (click)="onSubmit()"
+        [disabled]="loading || lat == null || lon == null">
+        {{ loading ? 'Classifying...' : 'Classify Land' }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Right column: tile + prediction + error -->
+  <div class="right-panel">
+    <div *ngIf="tileUrl" class="tile-container mb-3 text-center">
+      <img
+        [src]="tileUrl"
+        alt="Sentinel tile"
+        class="border rounded"
+      />
+    </div>
+<!-- src/app/components/classifier/classifier.component.html -->
+<div class="text-center mb-3">
+  <button class="btn btn-info btn-sm" (click)="locateMe()">
+    Use My Location
+  </button>
+</div>
+
+    <div *ngIf="prediction" class="alert alert-success text-center">
+      <strong>Prediction:</strong> {{ prediction }}
+    </div>
+
+    <div *ngIf="error" class="alert alert-danger text-center">
+      {{ error }}
+    </div>
+  </div>
+</div>
