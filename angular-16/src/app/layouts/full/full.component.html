@@ -1,0 +1,79 @@
+<div
+  id="main-wrapper"
+  [ngClass]="{ 'show-sidebar': showMobileMenu }"
+  dir="ltr"
+  data-theme="light"
+  data-layout="vertical"
+  [attr.data-sidebartype]="sidebartype"
+  data-sidebar-position="absolute"
+  data-header-position="absolute"
+  data-boxed-layout="full"
+>
+  <header class="topbar" data-navbarbg="skin1" style="background-color: green;"> <!-- Set navbar background to green -->
+    <nav class="d-flex top-navbar navbar-expand-lg navbar-dark">
+      <div
+        class="navbar-header"
+        [ngClass]="expandLogo ? 'expand-logo' : ''"
+        data-logobg="skin6"
+      >
+        <a
+          (click)="showMobileMenu = !showMobileMenu"
+          class="nav-toggler waves-effect waves-light d-block d-lg-none"
+          href="javascript:void(0)"
+        >
+          <i class="bi bi-text-left fs-6"></i>
+        </a>
+        <a class="navbar-brand" href="/">
+          <div class="logo-container text-center">
+            <img
+              src="assets/images/logos/farmwiselogo.png"
+              alt="FarmWise Logo"
+              class="img-fluid"
+              style="max-width: 70px;"
+            />
+          </div>
+          <div class="logo-text-container text-center">
+            <h4 class="text-dark mb-0">FarmWise</h4>
+          </div>
+        </a>
+        <a
+          class="topbartoggler d-block d-lg-none waves-effect waves-light"
+          href="javascript:void(0)"
+          (click)="isCollapsed = !isCollapsed"
+          [attr.aria-expanded]="!isCollapsed"
+        >
+          <i class="bi bi-text-right fs-6"></i>
+        </a>
+      </div>
+      <div
+        class="navbar-collapse collapse"
+        id="navbarSupportedContent"
+        data-navbarbg="skin1"
+        [ngbCollapse]="!isCollapsed"
+        style="background-color: green;"
+      >
+        <app-navigation
+          (toggleSidebar)="toggleSidebarType()"
+          class="w-100"
+        ></app-navigation>
+      </div>
+    </nav>
+  </header>
+  <aside
+    class="left-sidebar"
+    data-sidebarbg="skin6"
+    (mouseover)="Logo()"
+    (mouseout)="Logo()"
+  >
+    <app-sidebar></app-sidebar>
+  </aside>
+  <div class="page-wrapper">
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
+    </div>
+    <footer class="footer text-center bg-light py-3">
+      <span>All Rights Reserved by FarmWise. Designed and Developed by</span>
+      <a href="https://www.wrappixel.com" class="text-primary">FarmWise Dev</a>.
+    </footer>
+  </div>
+</div>

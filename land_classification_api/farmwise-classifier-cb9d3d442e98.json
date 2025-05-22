@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "farmwise-classifier",
+  "private_key_id": "cb9d3d442e989c8b020b316febf3363827c33579",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC1W4fjwEkyIj3k\nLN9yT7qTajJDgbVhICPx68gfZxQ+49RAyU3xCokUdUnBaJb+m6Psc/w4Sx7Lri8w\nNif7Hdr2ARTykaml7eKq9PbCU3Zhh1KKRxPTWv6Xp2yJNtpzVt1UoCchxUJqQjcj\nsFnahZKA+DOIIGd2Rp2GlvIqSL7qU7SVe5wSO6xHpl85wY8IaisHuIhDadxdT7Ne\nkIU57e87ND+U2Rc5n6XMN7PvpwhYIK5LSBEGYgyAAJ1WkHd935awjjdWY/86bRzk\nL/UGV9h8j5bi5r5glm8WU3ZOMFWtsqATI8uUVcXZG95v8GJuxHWWkNoETlloESrt\nZDzKoOFbAgMBAAECggEACL9sq2qBKAG+fNeXQu3KlkVnPZoE6YrsgO+lEbKzUiHu\nK95/O8hiJVJPp5xyZWnqJcPQdNdWxG9XR7A3tyVRBFBith1FksM0jZd5oZT3XwFG\nf3Sp5aYmz/eGRODC97ucZcfAgMtW2/DsCkooLgyxrOE2px3Hr8z8gzCbvLi75hSP\nugjUbqrH5mIbHQoEgBNa6f0Dlj1MKkeBX+QR5DXWnvaYaAL+ERy7F5UxXi1u7ORP\n6lDRcPrHH+VUhl2jdk6N4vd8J7623nqELmggZandBwF84jJPDIMXw9alMo7kZHaI\nS67QwKWqyM8+VgSSJZjwiYtf9gdmLkQ9E4/f+XV7wQKBgQDimfI3p+0UPzMOrNCl\nVZi4AHGMbaYWgyOK92jadldtcqZ96c6Y5ifUUAcTTIvCuA+7dB/Qs1RCnPgvnNUv\nndHU9TxpjLIHzOeV1b6h8UBZLXm78czwnT4ixcqOWbvwX8kSaDtlNLE6anGI0JRx\nnj5KnSk8vxNVi0U+OMUZxqH5wQKBgQDM4unRg0Xeis4jGA8P8RsJWFjLOY7weE30\npl3SV4ZZ3/6Fprdz6Un+FMrZgtLyL8qXFxL/3XL7TJxxzJ1DesUc8Y+4AwqiJp3x\nxVuYt7KTy27kKK4MwVKGoLOUwXEXyeBCieX5w+fqE3aIwWSXreyIXLXQ9W7vX7mp\niHMQ0koKGwKBgHh1rAyoKWDlA+heOABcU3YlTjd/ppY7Gm7qfQP9exaEpzsySpB/\ncVbtQAWjYHyfykU1QyB35GgQ9+Kftbi9ZemWgIn/sDhzVf0SBmgiTrnZcehWb0LN\n5FUp3jb0PvNWiBZP8Jsperl6EmbPssn/fE+/4kcXsFh+U83y8dx0+nBBAoGAZg0E\nD5JGQ+F5aWt7XSJnqBD0MU1bEBWsJpaTFsj3p151hRaUO8zQSRkMLKkH7w+05erd\nUMp5kggHyHr1Pf4xnggH4MzLCBcaBqmZxQiCjzD96/EDOGE2fM4ghJCRhxrLc/kB\nrpVQt3u4R8ekFhTQQt+CxDDrb5mLfZD0V0WXEU8CgYEA1XMiJT4PUHiSQO1vIfjL\nzudRilFPdKbGEdCPtwDBqJ5xJSFlobSUt0TuYAIFiOkMue95xu0Kya9rIMVuBgbQ\n4fenLlWpRmmoMzVfuyJSRMK/NczarSC7XPbwTf4dHwmQzIjIo/KzR2WsgWn0zW9B\nfNR/upQtbgqaQGwi8Tn208Y=\n-----END PRIVATE KEY-----\n",
+  "client_email": "earthengine-access@farmwise-classifier.iam.gserviceaccount.com",
+  "client_id": "101234994973542872035",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/earthengine-access%40farmwise-classifier.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

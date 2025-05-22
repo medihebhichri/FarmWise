@@ -1,0 +1,29 @@
+<div class="profile-wrapper d-flex align-items-center justify-content-center" style="background-image: url('assets/images/logos/farmwiselogo.png'); height: 90vh; position: relative;">
+    <div class="card p-4 shadow-lg" style="width: 400px; background-color: rgba(255, 255, 255, 0.95); border-radius: 15px;">
+        <h4 class="mb-3 text-center text-primary">User Profile</h4>
+
+        <div class="text-center mb-3">
+            <img *ngIf="safeImageUrl" [src]="safeImageUrl" alt="Profile Picture" class="rounded-circle border border-primary" style="width: 100px; height: 100px; object-fit: cover;">
+            <div *ngIf="!safeImageUrl" class="placeholder rounded-circle border border-secondary" style="width: 100px; height: 100px; background-color: #f0f0f0;"></div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Name:</label>
+            <p class="form-control-static">{{ user?.firstName }} {{ user?.lastName }}</p>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Username:</label>
+            <p class="form-control-static">{{ user?.username }}</p>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Roles:</label>
+            <p class="form-control-static">{{ getUserRoles() }}</p>
+        </div>
+
+        <div class="text-center">
+            <button class="btn btn-primary btn-lg" routerLink="/dashboard">Go to Dashboard</button>
+        </div>
+    </div>
+</div>
