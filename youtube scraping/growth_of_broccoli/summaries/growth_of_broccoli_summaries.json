@@ -1,0 +1,354 @@
+{
+    "plant_name": "growth of Broccoli",
+    "query": "best factors for growth of Broccoli",
+    "videos": [
+        {
+            "video_id": "qaXPRlxcItg",
+            "video_url": "https://www.youtube.com/watch?v=qaXPRlxcItg",
+            "summary": "The author has had a very successful season growing broccoli, producing 46 excellent heads out of 73 plants. They attribute their success to consistently following best practices such as selecting the right variety, using good seed, and providing optimal growing conditions, including adequate moisture and fertility. They also mention that failing to do some of these tasks can lead to poor or even failed crops. The author plans to continue refining their methods and conduct variety trials next year to determine which varieties are more suitable for their gardens. They highlight the importance of developing skills in addition to having knowledge, and express frustration that it took them so long to achieve success with broccoli.\n\nNote: The text is a detailed account of the author's experience growing broccoli, including their successes and failures, and provides practical advice on how to grow this crop successfully. It also touches on the importance of consistency and skill development in achieving good results in gardening.  The text can be broken down into several sections:\n\n* Introduction: The author's successful season with",
+            "growth_factors": {
+                "temperature": "moderate",
+                "humidity": "consistent moisture",
+                "method_use": "soil cultivation",
+                "soil_natural": true,
+                "method_use_for_plant": "broccoli",
+                "light_exposure": "varies",
+                "water_requirements": "moist but not wet",
+                "fertilizer": "compost and additional feeding",
+                "pH_level": "Not specified",
+                "plant_spacing": "enough space to grow"
+            }
+        },
+        {
+            "video_id": "vZ5-kgS7dOM",
+            "video_url": "https://www.youtube.com/watch?v=vZ5-kgS7dOM",
+            "summary": "Error: LM Studio responded with status 400",
+            "growth_factors": {
+                "temperature": "Error: status 400",
+                "humidity": "Error: status 400",
+                "method_use": "Error: status 400",
+                "soil_natural": "Error: status 400",
+                "method_use_for_plant": "Error: status 400",
+                "light_exposure": "Error: status 400",
+                "water_requirements": "Error: status 400",
+                "fertilizer": "Error: status 400",
+                "pH_level": "Error: status 400",
+                "plant_spacing": "Error: status 400"
+            }
+        },
+        {
+            "video_id": "uQ_6HUeaSAA",
+            "video_url": "https://www.youtube.com/watch?v=uQ_6HUeaSAA",
+            "summary": "The text describes a method of prepping seeds for planting by making a small incision in them, allowing them to sprout faster. This process allows the seeds to germinate more quickly, typically within 3 days.\n\nNote that there's no specific information about what type of seed or plant is being discussed in the original text, so this summary remains quite general. If you have any further context or clarification, I can try to refine the summary! \n\nWould you like me to make any changes? \n```python\ndef summarize_text(text):\n    # Remove leading/trailing whitespace and split into sentences\n    sentences = [s.strip() for s in text.split('.')]\n    \n    # Initialize summary variables\n    summary = ''\n    has_found_method = False\n    \n    # Iterate over each sentence\n    for sentence in sentences:\n        if 'to speed' in sentence.lower():\n            has_found_method = True\n            # Extract the key points of the method\n            parts = [p.strip",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "Not specified",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "Not specified",
+                "light_exposure": "Not specified",
+                "water_requirements": "Not specified",
+                "fertilizer": "Not specified",
+                "pH_level": "Not specified",
+                "plant_spacing": "Not specified"
+            }
+        },
+        {
+            "video_id": "aSjwmlnLi08",
+            "video_url": "https://www.youtube.com/watch?v=aSjwmlnLi08",
+            "summary": "The best way to store broccoli sprouts after they are grown is to refrigerate them for only a few days before freezing them. Freezing will allow you to preserve them for weeks or months without losing potency. However, it's recommended not to freeze them for more than a month or two due to the potential for myrosinase (an enzyme that breaks down glucosinolates) to activate and degrade over time.\n\nThe key takeaways are:\n\n* Refrigerate broccoli sprouts for only 2-3 days before freezing\n* Freeze them on a cookie tray or baking tin with waxed paper\n* Bundle and store in a bag or container\n* Can be preserved for weeks or months, but not recommended to freeze for more than a month or two.  The best way to store broccoli sprouts after they are grown is to refrigerate them for only a few days before freezing them. Freezing will allow you to preserve them for weeks or months without losing potency. However",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "Refrigerator and quick-freezing",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "Sowing seeds in sprouting jar with water",
+                "light_exposure": "Low (refrigeration slows growth rate)",
+                "water_requirements": "Water in jar for sowing and refrigerating",
+                "fertilizer": "None mentioned",
+                "pH_level": "Not specified",
+                "plant_spacing": "Sown tightly in sprouting jar"
+            }
+        },
+        {
+            "video_id": "hGti1Ml49qI",
+            "video_url": "https://www.youtube.com/watch?v=hGti1Ml49qI",
+            "summary": "The author has struggled with growing straight broccoli seedlings, often resulting in crooked plants that don't grow well. To address this issue, they conducted an experiment to see if planting the seedlings deeper could help them grow straighter. They planted three sets of broccoli seedlings at different depths (at soil level, deep enough for cotyledons to stick out, and extra deep with cotyledons buried) in a raised bed and observed their growth. The results showed that all plants survived regardless of depth, but the ones planted deeper grew faster and produced a head sooner. However, they also grew slower overall. The author notes that this experiment was not conclusive and suggests that further testing is needed to determine the optimal depth for planting broccoli seedlings. They encourage viewers to try similar experiments at home to see if different depths affect growth rates and other factors like disease resistance or heat stress. The goal of this experiment is to explore whether planting seeds deeper can improve their growth and resilience, and potentially develop",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "supplementary light no light closer to the light further away from the light indoors outdoors",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "planting plants at different depths on a small scale",
+                "light_exposure": "more light there and there's less water there there's also more heat there since it's at that soil bed interface",
+                "water_requirements": "Not specified",
+                "fertilizer": "Not specified",
+                "pH_level": "Not specified",
+                "plant_spacing": "Not specified"
+            }
+        },
+        {
+            "video_id": "BeXkg2vR1ms",
+            "video_url": "https://www.youtube.com/watch?v=BeXkg2vR1ms",
+            "summary": "The host (Justin Bear) cuts up some broccoli and plants the cuttings in the ground. He is testing whether these plant cuttings can grow into edible broccoli with good flavor, and invites viewers to watch for further updates.\n\nNote: The summary is based on the provided text, but it does not capture the full context of the video or the host's tone. It provides a brief overview of what is happening in the video.  If you want me to add anything let me know. \n\nAlso note that I am a bot and my responses are generated based on patterns and algorithms, if you want me to add more information about the video like \"Justin Bear\" is an enthusiastic gardener who loves experimenting with new techniques, or that he talks about how easy it is to grow broccoli from cuttings, let me know. \n\nLet me know if this summary is correct or not. If you need any changes please let me know. I will be happy to make the necessary corrections.",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "Not specified",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "Not specified",
+                "light_exposure": "Not specified",
+                "water_requirements": "Not specified",
+                "fertilizer": "Not specified",
+                "pH_level": "Not specified",
+                "plant_spacing": "Not specified"
+            }
+        },
+        {
+            "video_id": "Pj5opTbux4s",
+            "video_url": "https://www.youtube.com/watch?v=Pj5opTbux4s",
+            "summary": "Error: LM Studio responded with status 400",
+            "growth_factors": {
+                "temperature": "Error: status 400",
+                "humidity": "Error: status 400",
+                "method_use": "Error: status 400",
+                "soil_natural": "Error: status 400",
+                "method_use_for_plant": "Error: status 400",
+                "light_exposure": "Error: status 400",
+                "water_requirements": "Error: status 400",
+                "fertilizer": "Error: status 400",
+                "pH_level": "Error: status 400",
+                "plant_spacing": "Error: status 400"
+            }
+        },
+        {
+            "video_id": "zsYXz797698",
+            "video_url": "https://www.youtube.com/watch?v=zsYXz797698",
+            "summary": "The video discusses the benefits of eating broccoli daily for your health and well-being. It highlights the numerous antioxidants present in broccoli, which can help fight off free radicals and reduce oxidative stress. Eating broccoli can also lower LDL cholesterol, triglycerides, and blood sugar levels, while increasing HDL (good) cholesterol. Additionally, it may reduce inflammation, protect against cancer, particularly breast, prostate, stomach, colorectal, kidney, and bladder cancers, and support bone health by strengthening bones and reducing the risk of osteoarthritis. Broccoli also contains essential vitamins and minerals like vitamin C, K, folate, potassium, and selenium. It can help with oral hygiene by preventing periodontitis and lowering the risk of oral cancer. The video concludes that eating broccoli daily is beneficial for your overall health and encourages viewers to incorporate it into their diet.\n\nNote: This summary is based on the provided text and may not include all the details or nuances presented in the original content.  |",
+            "growth_factors": {
+                "temperature": 18,
+                "humidity": 60,
+                "method_use": "Not specified",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "Steaming, boiling, microwaving or raw",
+                "light_exposure": "Indirect sunlight for growth",
+                "water_requirements": "Moderate water supply",
+                "fertilizer": "Organic fertilizer (for soil health)",
+                "pH_level": 6.5,
+                "plant_spacing": "Not specified"
+            }
+        },
+        {
+            "video_id": "EYQKqLHvIdw",
+            "video_url": "https://www.youtube.com/watch?v=EYQKqLHvIdw",
+            "summary": "Error: LM Studio responded with status 400",
+            "growth_factors": {
+                "temperature": "Error: status 400",
+                "humidity": "Error: status 400",
+                "method_use": "Error: status 400",
+                "soil_natural": "Error: status 400",
+                "method_use_for_plant": "Error: status 400",
+                "light_exposure": "Error: status 400",
+                "water_requirements": "Error: status 400",
+                "fertilizer": "Error: status 400",
+                "pH_level": "Error: status 400",
+                "plant_spacing": "Error: status 400"
+            }
+        },
+        {
+            "video_id": "kvJzFdizkzk",
+            "video_url": "https://www.youtube.com/watch?v=kvJzFdizkzk",
+            "summary": "Error: LM Studio responded with status 400",
+            "growth_factors": {
+                "temperature": "Error: status 400",
+                "humidity": "Error: status 400",
+                "method_use": "Error: status 400",
+                "soil_natural": "Error: status 400",
+                "method_use_for_plant": "Error: status 400",
+                "light_exposure": "Error: status 400",
+                "water_requirements": "Error: status 400",
+                "fertilizer": "Error: status 400",
+                "pH_level": "Error: status 400",
+                "plant_spacing": "Error: status 400"
+            }
+        },
+        {
+            "video_id": "VbZ7jK8kjgs",
+            "video_url": "https://www.youtube.com/watch?v=VbZ7jK8kjgs",
+            "summary": "Jerry from Texas explains how to plant broccoli seeds in cell trays indoors. The process involves:\n\n1. Using seed starting mix, a cell tray, and broccoli seeds.\n2. Sowing one seed per cell and watering gently with a pan of water.\n3. Placing the trays under grow lights (12-16 hours/day) and a small fan to circulate air and prevent mold.\n4. Waiting for 3 weeks for true leaves to appear, indicating readiness for transplanting.\n5. Transplanting the seedlings into the garden when they have 2 sets of true leaves, spaced 1 plant/sq ft, up to the base of the cotyledon leaves.\n6. Using a drill bit or pencil to loosen and remove the transplants from the cell trays.\n7. Gently placing the transplants into holes in the garden bed, covering with soil.\n8. Watering with a turkey baster (or jar) carefully, trying not to get water on the leaves",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "Not specified",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "Not specified",
+                "light_exposure": "Not specified",
+                "water_requirements": "Not specified",
+                "fertilizer": "Not specified",
+                "pH_level": "Not specified",
+                "plant_spacing": "Not specified"
+            }
+        },
+        {
+            "video_id": "R5kPPW2D_Ic",
+            "video_url": "https://www.youtube.com/watch?v=R5kPPW2D_Ic",
+            "summary": "The author of the video conducted an experiment to test whether nutrients provide any benefits to microgreens. They had four trays of broccoli, with each tray receiving different treatments: water (control group), worm castings (a type of compost), ocean solution (a type of fertilizer), and a combination of both. The results showed that the nutrient-treated groups outperformed the control group in terms of growth and harvest weight. The author noted that the ocean solution was particularly effective, producing larger cotyledons and taller growth. They also observed different coloration patterns among the nutrient-treated groups. The experiment suggests that adding nutrients can improve the growth and quality of microgreens, contradicting the notion that they don't provide any benefits. The author plans to conduct further experiments with other nutrients, including Maxi-Gro and Farmers Pride.  The video includes a detailed comparison of the harvest weights and appearance of each group, as well as a discussion of what worked and didn't work in the experiment. The",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "Not specified",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "Not specified",
+                "light_exposure": "Not specified",
+                "water_requirements": "Not specified",
+                "fertilizer": "Not specified",
+                "pH_level": "Not specified",
+                "plant_spacing": "Not specified"
+            }
+        },
+        {
+            "video_id": "_JtHJnooXZU",
+            "video_url": "https://www.youtube.com/watch?v=_JtHJnooXZU",
+            "summary": "The text provides a comprehensive guide on how to plant and grow broccoli. It covers topics such as choosing the right location, selecting the best variety for your climate and garden conditions, preparing the soil, planting seeds or seedlings, and caring for the plants throughout their growth cycle.\n\nKey points:\n\n* Broccoli is a cool-season crop that thrives in temperatures between 45°F and 75°F (7-24°C).\n* Choose a location with full sun for at least 6-8 hours a day and well-draining fertile soil with a pH level between 6.0 and 7.0.\n* Plant broccoli seeds or seedlings 18-24 inches apart in rows, or 24-36 inches apart if planting from seeds.\n* Water deeply whenever the top inch of soil feels dry, and maintain consistent moisture throughout the growing season.\n* Fertilize with a balanced fertilizer or compost halfway through the growing season to replenish soil nutrients.\n* Monitor for insect pests",
+            "growth_factors": {
+                "temperature": "45-75°F (7-24°C)",
+                "humidity": "Not specified",
+                "method_use": "seedlings or seeds",
+                "soil_natural": "fertile soil with pH level between 6.0 and 7.0, rich in organic matter and nutrients",
+                "method_use_for_plant": "direct sowing or transplanting",
+                "light_exposure": "full sun for at least 6 to 8 hours a day",
+                "water_requirements": "1 to 1.5 inches (2.5-3.8 cm) of water per week",
+                "fertilizer": "balanced fertilizer or organic mulch, compost, or aged manure",
+                "pH_level": "between 6.0 and 7.0",
+                "plant_spacing": "18 to 24 inches (46-61 cm) apart"
+            }
+        },
+        {
+            "video_id": "NqgGMdO3Rp4",
+            "video_url": "https://www.youtube.com/watch?v=NqgGMdO3Rp4",
+            "summary": "This video discusses growing purple sprouting broccoli from a variety that is bred specifically to produce at the end of winter or beginning of spring. The plants were sown in June and are 10 months old. They have been protected from frost with snow cover, but not all varieties can withstand such cold temperatures. It's essential to read the seed packet for harvest dates and to choose a variety suitable for your climate. To grow purple sprouting broccoli, use no-dig methods, protect the plants from insects with mesh or other covers in summer, and remove older leaves to encourage healthy growth. The video shows how to harvest and enjoy the crop, highlighting its frost hardiness and suitability for eating during the hungry gap period. The speaker recommends growing hybrid varieties for better results but acknowledges that old-fashioned open-pollinated varieties can be maintained by selecting good plants for seed saving.\nThe post Video Summary: Growing Purple Sprouting Broccoli appeared first on Biofortified Blog.]]> ]]>\nThe video discusses",
+            "growth_factors": {
+                "temperature": "minus 10 to 14 Fahrenheit",
+                "humidity": "Not specified",
+                "method_use": "no dig, undisturbed soil",
+                "soil_natural": "yes",
+                "method_use_for_plant": "protect from insects in summer",
+                "light_exposure": "sufficient for photosynthesis at the top of the plant",
+                "water_requirements": "Not specified",
+                "fertilizer": "compost added in winter, ongoing feeding to the soil rather than the plant",
+                "pH_level": "Not specified",
+                "plant_spacing": "let them recline on the ground and grow up again"
+            }
+        },
+        {
+            "video_id": "zQx2bneF3yw",
+            "video_url": "https://www.youtube.com/watch?v=zQx2bneF3yw",
+            "summary": "Error: LM Studio responded with status 400",
+            "growth_factors": {
+                "temperature": "Error: status 400",
+                "humidity": "Error: status 400",
+                "method_use": "Error: status 400",
+                "soil_natural": "Error: status 400",
+                "method_use_for_plant": "Error: status 400",
+                "light_exposure": "Error: status 400",
+                "water_requirements": "Error: status 400",
+                "fertilizer": "Error: status 400",
+                "pH_level": "Error: status 400",
+                "plant_spacing": "Error: status 400"
+            }
+        },
+        {
+            "video_id": "fRPoXecfV3s",
+            "video_url": "https://www.youtube.com/watch?v=fRPoXecfV3s",
+            "summary": "The Head Farmer at Eden Valley Institute of Wellness shares his top three crop choices for starting a profitable small farm with just 2 acres. Based on his experience, he recommends:\n\n1. **Strawberries**: A low-maintenance crop that can provide a steady income throughout the year. He estimates it would take about $3,000 to set up a strawberry patch using a weed mat and drip system, which could yield around 150-200 pounds of strawberries per week.\n2. **Garlic**: Easy to grow and has a longer sales window (4-6 months), giving farmers time to find buyers or markets for their product. He planted about a quarter acre with garlic and expects to make around $30,000-$40,000 this year.\n3. **Asparagus**: A relatively easy crop to maintain, but it takes 3 years to establish. However, once established, it requires minimal maintenance and can provide a good income (estimated at $10,000 per year",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "weed mat, drip system",
+                "soil_natural": false,
+                "method_use_for_plant": {
+                    "strawberries": "poke holes, water, fertilize",
+                    "garlic": "plant in fall, weed in spring, harvest Midsummer",
+                    "asparagus": "plant, water throughout summer"
+                },
+                "light_exposure": "full sun (for strawberries)",
+                "water_requirements": {
+                    "strawberries": "irrigation system for consistent watering",
+                    "garlic": "frozen winter months no weeding needed, consistent water in spring and Midsummer",
+                    "asparagus": "consistent water throughout summer"
+                },
+                "fertilizer": "yes (for strawberries)",
+                "pH_level": "Not specified",
+                "plant_spacing": "6,000 plants per quarter acre (for strawberries), 3 years for asparagus to establish before harvesting"
+            }
+        },
+        {
+            "video_id": "Z7P8Gn9Hsis",
+            "video_url": "https://www.youtube.com/watch?v=Z7P8Gn9Hsis",
+            "summary": "The author discusses the importance of sulforaphane, a compound found in broccoli, cauliflower, Brussels sprouts, kale, collards, and other cruciferous vegetables. Sulforaphane has anti-cancer properties and can be activated when the enzyme myrosinase is present. However, cooking broccoli can destroy this enzyme, preventing sulforaphane production. The author shares a \"hack and hold\" technique: chop the broccoli, wait 40 minutes, then cook it. This allows the sulforaphane precursor to mix with the enzyme, creating sulforaphane. However, if using frozen broccoli, which has been blanched to inactivate the enzyme, adding powdered mustard seeds (a natural source of myrosinase) can activate sulforaphane production. The author suggests sprinkling a small amount of mustard powder on cooked broccoli or adding fresh greens with the enzyme to create sulforaphane.\nNote: The text is written in an informal and conversational",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "Not specified",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "Not specified",
+                "light_exposure": "Not specified",
+                "water_requirements": "Not specified",
+                "fertilizer": "Not specified",
+                "pH_level": "Not specified",
+                "plant_spacing": "Not specified"
+            }
+        },
+        {
+            "video_id": "EwC-8zn1R70",
+            "video_url": "https://www.youtube.com/watch?v=EwC-8zn1R70",
+            "summary": "The video discusses how to grow basil, one of the healthiest and most versatile vegetables. To grow basil, follow these steps:\n\n1. Choose a variety that suits your climate and growing season.\n2. Prepare the soil by breaking up clumps and adding organic matter like compost or well-rotted manure.\n3. Decide whether to start from seeds or transplants, and if starting from seeds, sow them 6-8 weeks before the last frost date in your area.\n4. Transplant seedlings 18-24 inches apart when they have 2-4 sets of leaves and a height of 3-4 inches.\n5. Provide consistent moisture, especially during head development, and maintain a balanced soil temperature.\n6. Fertilize regularly with organic fertilizer, following the package instructions.\n7. Keep an eye out for common pests like aphids, white cabbage worms, and slugs, and use organic pest control methods or beneficial insects to manage them.\n8. Provide",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "Not specified",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "Not specified",
+                "light_exposure": "Not specified",
+                "water_requirements": "Not specified",
+                "fertilizer": "Not specified",
+                "pH_level": "Not specified",
+                "plant_spacing": "Not specified"
+            }
+        },
+        {
+            "video_id": "42ieCWDAuYc",
+            "video_url": "https://www.youtube.com/watch?v=42ieCWDAuYc",
+            "summary": "The video discusses how to plant, grow, and care for brassicas (cole crops), which include broccoli, cauliflower, cabbage, and other related vegetables. The narrator, Jeff, provides a quick overview of seed starting, including planting depth and light requirements. He then focuses on three specific brassica varieties: Steve's Tender Early Green Broccoli, Walam 29 Broccoli, Amazing Cauliflower, Snowball Cauliflower, Copenhagen Early Market Cabbage, and All-Season Cabbage.\n\nThe video covers topics such as:\n\n* Seed starting: Plant seeds about an inch deep in seed starting mix or potting soil. Use grow lights for 3-5 days after germination.\n* Hardening off: Gradually acclimate plants to outdoor conditions by moving them outside during the day and back inside at night before transplanting into the garden.\n* Spacing: Plant brassicas about 2 feet apart in well-draining soil with organic matter like compost or manure.\n* Soil",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "Not specified",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "Not specified",
+                "light_exposure": "Not specified",
+                "water_requirements": "Not specified",
+                "fertilizer": "Not specified",
+                "pH_level": "Not specified",
+                "plant_spacing": "Not specified"
+            }
+        },
+        {
+            "video_id": "o1ESKWFS-H0",
+            "video_url": "https://www.youtube.com/watch?v=o1ESKWFS-H0",
+            "summary": "The video discusses common mistakes to avoid when growing microgreens, a type of young, nutrient-rich greens that can be easily grown indoors. The host, Jack, covers the top 5 mistakes to avoid:\n\n1. **Using the wrong growing medium**: Microgreens require a sterile growing medium, such as coconut coir, which is free from pathogens and other contaminants.\n2. **Underwatering or overwatering**: Microgreens need consistent moisture, but excessive watering can lead to fungus growth. Jack uses coconut coir to absorb excess moisture and provide consistent moisture to the seeds.\n3. **Not covering the microgreen seeds and providing enough weight**: Covering the seeds with a material like clay pebbles and adding weight on top helps keep them in darkness, promoting root growth and strong plants.\n4. **Insufficient light**: Microgreens need sufficient light to grow; Jack uses a 300-watt grow light from Mars Hydro to provide consistent light for his microgreens.\n5. **",
+            "growth_factors": {
+                "temperature": "Not specified",
+                "humidity": "Not specified",
+                "method_use": "Not specified",
+                "soil_natural": "Not specified",
+                "method_use_for_plant": "Not specified",
+                "light_exposure": "Not specified",
+                "water_requirements": "Not specified",
+                "fertilizer": "Not specified",
+                "pH_level": "Not specified",
+                "plant_spacing": "Not specified"
+            }
+        }
+    ]
+}
